@@ -6,6 +6,5 @@ seaborn
 tensorflow
 keras
 scipy
-pytorch
-torchvision
+torch
 transformers
