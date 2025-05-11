@@ -2,6 +2,10 @@
 
 ## Description
 
+In the healthcare field, prescriptions often contain specialized terminology, lengthy, and complex content. This makes it difficult for patients to understand the information on the prescription, and even doctors may waste time when looking up or summarizing the details quickly. Therefore, building an automatic Question Answering (QA) model that can extract information from prescriptions accurately and promptly based on user queries would greatly improve time efficiency, communication effectiveness, and ensure treatment accuracy.
+
+In this project, we leverage pre-trained models for inference and fine-tune them on prescription-related datasets. By fine-tuning models such as BERT, RoBERTa, and it's variants, we aim to enhance the model’s ability to understand and extract medical-specific information. The fine-tuned model will then be capable of answering user queries with higher precision, making it a powerful tool for both patients and healthcare professionals.
+
 ## Getting started
 
 ### Prerequisites
@@ -26,6 +30,7 @@ pip install -r requirements.txt
 ## Project Structure
 
 ```
+<<<<<<< HEAD
 NLP_Transformer_QA-Model
 ├── BE_AnswerAndQuestion/                         # Contains backend source code built with FastAPI
 │   ├── app.py                                    # Main file that starts the FastAPI app, defines the API, and loads the model from best_model
@@ -43,4 +48,23 @@ NLP_Transformer_QA-Model
 ├── .gitignore                                    # Specifies files/folders to be ignored by Git
 ├── README.md                                     # Project overview, including setup instructions, usage, and deployment guide
 └── requirements.txt                              # List of Python dependencies required to run the backend
+=======
+<GroupID>
+├── F1
+│   ├── F11
+│   │   ├── File 1
+│   │   ├── File 2
+│   │   └── ...
+│   ├── F11
+│   │   ├── File 1
+│   │   ├── File 2
+│   │   └── ...
+│   ├── F11
+│   │   ├── File 1
+│   │   ├── File 2
+├── docs
+│   └── Report.pdf
+├── requiremnts.txt
+├── README
+>>>>>>> 8465b7af367b54de9de4cdcb9d244b971a880bac
 ```
