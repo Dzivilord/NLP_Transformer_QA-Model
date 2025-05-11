@@ -30,7 +30,6 @@ pip install -r requirements.txt
 ## Project Structure
 
 ```
-<<<<<<< HEAD
 NLP_Transformer_QA-Model
 ├── BE_AnswerAndQuestion/                         # Contains backend source code built with FastAPI
 │   ├── app.py                                    # Main file that starts the FastAPI app, defines the API, and loads the model from best_model
@@ -48,23 +47,4 @@ NLP_Transformer_QA-Model
 ├── .gitignore                                    # Specifies files/folders to be ignored by Git
 ├── README.md                                     # Project overview, including setup instructions, usage, and deployment guide
 └── requirements.txt                              # List of Python dependencies required to run the backend
-=======
-<GroupID>
-├── F1
-│   ├── F11
-│   │   ├── File 1
-│   │   ├── File 2
-│   │   └── ...
-│   ├── F11
-│   │   ├── File 1
-│   │   ├── File 2
-│   │   └── ...
-│   ├── F11
-│   │   ├── File 1
-│   │   ├── File 2
-├── docs
-│   └── Report.pdf
-├── requiremnts.txt
-├── README
->>>>>>> 8465b7af367b54de9de4cdcb9d244b971a880bac
 ```
