@@ -1,0 +1,16 @@
+numpy
+matplotlib
+pandas
+scikit-learn
+seaborn
+tensorflow
+keras
+scipy
+torch
+transformers
+datasets
+tqdm
+fastapi
+pydantic
+uvicorn
+starlette
