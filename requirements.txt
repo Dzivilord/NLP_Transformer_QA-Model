@@ -8,3 +8,9 @@ keras
 scipy
 torch
 transformers
+datasets
+tqdm
+fastapi
+pydantic
+uvicorn
+starlette
